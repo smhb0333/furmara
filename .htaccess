@@ -1,0 +1,22 @@
+DirectoryIndex index.html index.php
+RewriteEngine On
+RewriteBase /FURMARA/
+
+# App code folder is never web-accessible
+RewriteRule ^app(/|$) - [F,L]
+
+# PHP backend: API + admin dashboard
+RewriteRule ^api/ api.php [L,QSA]
+RewriteRule ^admin(/|$) admin.php [L,QSA]
+
+# Existing files and folders serve as-is (static site)
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Serve .html without extension (Next static export)
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+# Fallback for client routes
+RewriteRule ^ index.html [L]

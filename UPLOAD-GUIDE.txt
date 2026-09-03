@@ -1,0 +1,32 @@
+FURMARA — SIMPLE UPLOAD (seedha public_html mein!)
+====================================================
+
+AB BILKUL ASAAN HAI:
+
+1. hPanel → File Manager → public_html kholo
+2. public_html POORA KHALI karo (sab purani files delete)
+3. Yeh zip public_html ke ANDAR upload karo
+4. Right-click → Extract (yahin public_html mein)
+5. Zip file delete kar do
+6. Check: public_html mein index.html, app/, _next/, admin.php dikhne chahiye
+   (agar zip ke naam ka folder ban gaya ho to uske andar ki files
+    select karke public_html mein Move kar do)
+
+PHIR INSTALL (sirf pehli baar, 2 minute):
+
+7. hPanel → Databases → MySQL: database + user banao (naam/pass likh lo)
+8. hPanel → Advanced → PHP Configuration → PHP 8.1 ya 8.2
+9. Browser: https://furmara.com/install.php
+   - App URL: https://www.furmara.com
+   - DB host: localhost | DB name/user/pass: step 7 wale
+   - Admin email/password: apna login
+   - SMTP password: (optional — khali chhor sakte ho, emails phir bhi jayengi!)
+10. Install → phir public_html/install.php DELETE karo
+
+HO GAYA:
+- Website:   https://furmara.com
+- Dashboard: https://furmara.com/admin/login
+- Emails Sonuhussyn09@gmail.com pe khud ayengi (customer ko thank-you bhi)
+
+NOTE: app/ folder website ka engine hai — usko delete/move mat karna.
+.htaccess bhi zaroori hai (hidden file hoti hai).

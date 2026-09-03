@@ -1,0 +1,7 @@
+:HL["/_next/static/chunks/103ufn3-2or39.css","style"]
+:HL["/_next/static/chunks/0kkns6bhx4ev..css","style"]
+:HL["/_next/static/media/52b5d5098cb87ddd-s.p.13ehjyjdqyy~v.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/83afe278b6a6bb3c-s.p.0q-301v4kxxnr.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/images/brand/furmara-logo-footer-light.png?v=2","image"]
+:HL["/images/brand/furmara-logo-footer.png?v=2","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"(shop)","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"MzKEUabNruDd5sR5G86Gw"}
