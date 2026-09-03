@@ -1,0 +1,63 @@
+FURMARA — FINAL LIVE PACKAGE (asli design + orders + EMAILS + admin)
+======================================================================
+
+IS PACKAGE MEIN SAB KUCH HAI:
+  ✓ Wohi asli luxury website design (Next.js wali)
+  ✓ Navbar ke uper patti: FREE DELIVERY above Rs 4,000 · COD available
+  ✓ Real checkout: JazzCash / Bank transfer (screenshot) / CASH ON DELIVERY
+  ✓ Order place hote hi CUSTOMER ke Gmail pe "Thank You for Your Order" email
+  ✓ Tumhe new-order notification: Sonuhussyn09@gmail.com + info@furmara.com
+  ✓ Admin dashboard: /admin/login (orders, status, email resend, products)
+  ✓ Order tracking, fragrance finder, newsletter — sab chalta hai
+
+PEHLE HPANEL MEIN 3 CHEEZEIN:
+------------------------------
+1. DATABASE:  hPanel → Databases → MySQL → naya database + user banao
+   (naam aur password likh lo)
+2. EMAIL:     hPanel → Emails → mailbox banao: info@furmara.com
+   ★ ISKA PASSWORD hi emails chalata hai — likh lo! ★
+3. PHP:       hPanel → Advanced → PHP Configuration → PHP 8.1 ya 8.2
+
+UPLOAD (DHYAN SE):
+-------------------
+4. File Manager → domains/furmara.com/ folder kholo (public_html ke BAHAR,
+   jahan public_html folder nazar aata hai).
+5. Purana public_html poora KHALI karo.
+6. FURMARA-LIVE-READY.zip ko domains/furmara.com/ mein upload karo (public_html
+   ke BARABAR mein) → right-click → Extract → zip delete.
+7. Ab domains/furmara.com/ mein yeh hoga:
+   bootstrap.php, routes.php, src/, views/, config/, sql/, vendor/, storage/
+   AUR public_html/ (website + api.php + admin.php iske andar)
+   — code public_html ke bahar isliye hai ke passwords public na hon. Sahi hai.
+
+INSTALL (2 minute):
+--------------------
+8. Browser: https://furmara.com/install.php
+9. Form bharo:
+   - App URL:       https://www.furmara.com
+   - DB host:       localhost
+   - DB name/user/pass:  step 1 wale
+   - Admin email/password:  apna admin login (default Sonuhussyn09@gmail.com / @waqasaly1)
+   - SMTP email:    info@furmara.com
+   - SMTP password: mailbox ka password (step 2)  ← EMAIL ISI SE JATI HAI
+   - Test mode:     UNCHECK (live customers ko email jaye)
+10. Install → success → public_html/install.php DELETE karo (zaroori!).
+
+CHECK:
+------
+11. https://furmara.com — asli design + patti dikhni chahiye.
+12. /admin/login → Email setup → "Send SMTP test" → email ani chahiye.
+13. Test order place karo (COD sab se asaan) →
+    customer email + tumhari notification dono check karo (spam folder bhi).
+
+AGAR EMAIL NA AYE:
+------------------
+- domains/furmara.com/.env mein SMTP_PASSWORD sahi hai?
+- SMTP_USER = wahi mailbox jo hPanel Emails mein banaya
+- MAIL_TEST_MODE=false hona chahiye
+- Pehli emails Gmail ke spam mein ja sakti hain — "Not spam" mark karo
+
+ADMIN DASHBOARD:
+----------------
+- Live: https://furmara.com/admin/login
+- Har order ki detail, payment screenshot, status change, email resend.

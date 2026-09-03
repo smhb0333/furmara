@@ -1,0 +1,11 @@
+{
+  "name": "furmara/store",
+  "description": "FURMARA PHP storefront — Hostinger SMTP order emails",
+  "require": {
+    "php": ">=8.1",
+    "phpmailer/phpmailer": "^6.9"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}

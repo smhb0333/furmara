@@ -1,0 +1,6 @@
+/vendor/
+composer.lock
+.env
+config/secrets.local.php
+storage/sessions/*
+!storage/sessions/.gitkeep
